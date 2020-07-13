@@ -9,7 +9,7 @@ import time
 from dateutil.parser import parse
 from posts_handler import get_posts
 
-def get_info(target_page, target_date, username, password):
+def get_page_data(target_page, target_date, username, password):
     driver1 = login(username, password)
     time.sleep(4)
     driver2 = login(username, password)

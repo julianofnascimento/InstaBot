@@ -1,6 +1,6 @@
 
 
-gecko_path = r'/home/juliano/Downloads/geckodriver-v0.26.0-linux64/geckodriver'
+gecko_path = r'geckodriver'
 
 xpath = {
     'username' : '/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[2]/div/label/input',
